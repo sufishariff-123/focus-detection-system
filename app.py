@@ -1,9 +1,9 @@
 import streamlit as st
-import cv2
 import numpy as np
-from ultralytics import YOLO
-import mediapipe as mp
 from PIL import Image
+import mediapipe as mp
+from ultralytics import YOLO
+import cv2
 
 # -----------------------------
 # PAGE CONFIG
