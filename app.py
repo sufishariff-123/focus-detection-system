@@ -32,7 +32,7 @@ st.markdown(
 # -----------------------------
 @st.cache_resource
 def load_models():
-    yolo_model = YOLO("yolov8n.pt")
+    yolo_model = YOLO("yolov8n.pt", task="detect")
 
     mp_face_mesh = mp.solutions.face_mesh
     face_mesh = mp_face_mesh.FaceMesh(
